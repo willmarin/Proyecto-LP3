@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Formularios en HTML</title>
+    </head>
+    <body>
+        <h1>Formularios</h1>
+        <form action="accion.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"><br><br>
+            <label for="Apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido"><br><br>
+            <label for="Sexo">Sexo:</label>
+            <input type="radio" id="femenino" name="sexo" value="femenino">femenino
+            <input type="radio" id="masculino" name="sexo" value="masculino">masculino
+            <input type="radio" id="otros" name="sexo" value="otros">otros <br><br>
+            <label>Vehiculo</label>
+            <input type="checkbox" id="vehiculo 1" name="bicibleta" value="bicibleta">bicibleta
+            <input type="checkbox" id="vehiculo 2" name="moto" value="moto">moto
+            <input type="checkbox" id="vehiculo 3" name="auto" value="auto">auto
+            <input type="submit" value="Enviar datos">
+        </form>
+    </body>
+</html>
