@@ -1,0 +1,101 @@
+/*Selectores*/
+
+/*Selectores universales*/
+/*
+Etiquetas peso de -> 1
+Clase y pseudoclases -> 10
+id -> 100
+Estilo de líneas ->1000
+!Important -> les gana a todos los anteriores
+*/
+*{
+    color: firebrick;
+}
+
+h1{
+    color: green;
+}
+
+p{
+    color: indigo;
+}
+
+/*Selectores por clase (Recomendable)*/
+
+.titulo{
+    color: gold;
+}
+
+.parrafo{
+    color: dodgerblue;
+}
+
+/*Selectores por id*/
+
+#titulo{
+    color: firebrick;
+}
+
+#parrafo{
+    color: darkorange;
+}
+
+/*Selectores de atributos*/
+[href]{
+    color: purple;
+}
+
+/*Selectores de href="#"*/
+[href="#"]{
+    color: red;
+}
+
+/*Selectores de atributo por clase alt + 126 ~*/
+[class~="rojo"]{
+    color: red;
+}
+
+/*Selectores de atributo de una sola clase*/
+[class|="verde"]{
+    color: green;
+}
+
+/*Selectores de atributo de los que empiecen con una clase alt + 94 ^*/
+[class^="rojo"]{
+    color: peru;
+}
+
+/*Selectores de atributo de los que terminen con una clase*/
+[class$="verde"]{
+    color: saddlebrown;
+}
+
+/*Selectores de atributo de los que contengan una clase*/
+[class*="verde"]{
+    color: palevioletred;
+}
+
+/*Selectores combinadores*/
+/*Toma al hermano adyacente del hermano que esta por debajo*/
+h1 + h2 {
+    color: crimson;
+}
+
+/*Así no tiene ningún efecto*/
+h2 + h2 {
+    color: blue;
+}
+
+/*Selector hermano general*/
+h1 ~ h3 {
+    color: blue;
+}
+
+/*Selector hijo*/
+p span  {
+    color: coral;
+}
+
+p span  {
+    color: black !important;
+}

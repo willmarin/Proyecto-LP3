@@ -1,0 +1,36 @@
+/*Ejercicio número 1, llamar estilos CSS desde un archivo*/
+
+/*Estilos generales de las etiquetas (No recomendado)*/
+
+/*Agregar fuentes externas para el h1*/
+@import url("https://fonts.googleapis.com/css?family=Tangerine");
+
+/*Agregar fuentes internas dentro del proyecto*/
+@font-face{
+    font-family: Embassy;
+    src: url(embassy-bt.ttf);
+}
+
+h1{
+    text-align: center; /*Sirve para centrar el texto*/
+    /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+    font-family: 'Tangerine', serif;
+    text-decoration: underline;
+    color: brown;
+    background: burlywood;
+}
+
+a{
+    color: chartreuse;
+    
+    background: crimson;
+}
+p{
+    /*font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
+    font-family: Embassy;/*Utilizar una fuente interna*/
+    color: darkblue;
+    background: darkgray;
+}
+body{
+    background-color: darkorange;
+}
