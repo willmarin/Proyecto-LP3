@@ -24,7 +24,7 @@ grid-templete-columns: repeat(2, 100px 50px...) es lo mismo que grid-template-co
 
 */
 
-.body{
+body{
     font-family: sans-serif;
     background-image: radial-gradient(circle, #b94bf8, #3a1957);
     background-repeat: no-repeat;

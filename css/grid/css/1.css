@@ -20,7 +20,7 @@ tip: si ponemos el valor end en -1 llegará hasta el final
 
 */
 
-.body{
+body{
     font-family: sans-serif;
     background-image: radial-gradient(circle, #b94bf8, #3a1957);
     background-repeat: no-repeat;
