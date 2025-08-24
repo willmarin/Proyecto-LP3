@@ -1,0 +1,28 @@
+/*Z-Index*/
+
+.box{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    position: relative;
+}
+
+.box1{
+    background: cornflowerblue;
+    z-index: 3;
+}
+
+.box2{
+    background: crimson;
+    top: -50px;
+    left: 50px;
+    z-index: 2;
+}
+
+.box3{
+    background: coral;
+    top: -100;
+    left: 100;
+    z-index: 1;
+}
